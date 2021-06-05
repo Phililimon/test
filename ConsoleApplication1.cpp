@@ -4,6 +4,10 @@
 
 using namespace std;
 
+void printKAKAHA() {
+    cout << "KAKAHA/n";
+}
+
 int main(int argc, char *argv[])
 {
     setlocale(LC_ALL, "Russian");
@@ -36,6 +40,8 @@ int main(int argc, char *argv[])
         }
     
     cout << "=" << itog << endl;
+
+    printKAKAHA();
 
     return 0;
 }
